@@ -1,0 +1,16 @@
+## How to initiate a new repo to an existing local repo
+
+
+
+#### 1 - Whether on Bitbucket or Github, when sending a local repo to the cloud, create a new repo under these storage sites but without a readme file, for you will get an error of fetch master, where you'd have to pull request the online repo to your current local repo
+
+
+
+####2 - On  your local repo set on the reminal within the local repo
+
+####`git remote add origin https://Topikz@bitbucket.org/Example/example.git`
+
+#### 3 - Afterwards set in terminal `git push -u origin master`
+
+
+
