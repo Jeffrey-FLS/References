@@ -17,7 +17,11 @@ import imgPlaceholder from 'assets/images/img-placeholder.png';
 
 
 
-### Tip 2 - 
+### Tip 2 - Webstorm cannot resolve symbol
+
+#### In order to avoid the imported components and libraries to be tagged with a "cannot resolve symbol" you must download the type library for that. In example, React Router Dom Switch will be tagged as an error. To avoid this, go to `File > Settings > Languages & Frameworks > Javascript > Libraries `  and Download `react-dom-router`. The same is applied whenever react components are being tagged, just download the `react` types file.
 
 
+
+### Tip 3 - 
 
